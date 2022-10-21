@@ -17,9 +17,9 @@ namespace JenkinsDemo2
         {
             ans = i - j;
         }
-        public void Multiply()
+        public int Multiply()
         {
-            ans = i * j;
+            return ans = i * j;
         }
 
     }
